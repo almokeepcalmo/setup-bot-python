@@ -2,6 +2,7 @@
 
     if [ ! -f pybot-install/bot.py ]; then
     echo "Installing important stuff"
+    sudo apt get update
     python -m ensurepip --upgrade
     pip install discord.py
     git clone https://github.com/almokeepcalmo/pybot-install.git
